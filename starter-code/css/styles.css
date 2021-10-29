@@ -1,0 +1,46 @@
+*{
+  color: white !important;
+  font-family: 'Barlow', sans-serif;
+}
+
+a:link {
+  color: white;
+}
+
+hr {
+  margin-left: 4rem;
+  width: 55%;
+}
+
+body {
+  background-image: url('../assets/home/background-home-desktop.jpg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 4rem;
+
+}
+.navbar{
+  padding: 0 !important;
+}
+/* .circle {
+  background-color: white;
+  width: 10%;
+  border-radius: 2rem;
+} */
+.navbar-collapse {
+  /* background-color: white; */
+  height: 7rem;
+  /* filter: blur(2rem); */
+}
+
+.navbar-nav{
+  margin-left: 5rem;
+}
+
+.home-paragraph {
+    /* margin-top: 5rem; */
+    position: fixed;
+    bottom: 18rem;
+    margin-left: 3rem;
+}
