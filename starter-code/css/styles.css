@@ -1,4 +1,4 @@
-*{
+* {
   color: white !important;
   font-family: 'Barlow', sans-serif;
 }
@@ -7,40 +7,139 @@ a:link {
   color: white;
 }
 
-hr {
-  margin-left: 4rem;
-  width: 55%;
+.home-line {
+  margin-left: 4rem !important;
+  width: 48%;
 }
 
-body {
+.fondo-home {
   background-image: url('../assets/home/background-home-desktop.jpg');
-  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
   margin: 4rem;
-
 }
-.navbar{
+
+.navbar {
   padding: 0 !important;
 }
-/* .circle {
-  background-color: white;
-  width: 10%;
-  border-radius: 2rem;
-} */
+
 .navbar-collapse {
   /* background-color: white; */
-  height: 7rem;
+  /* height: 7rem; */
   /* filter: blur(2rem); */
 }
 
-.navbar-nav{
+.navbar-nav {
   margin-left: 5rem;
 }
 
 .home-paragraph {
-    /* margin-top: 5rem; */
-    position: fixed;
-    bottom: 18rem;
-    margin-left: 3rem;
+  position: fixed;
+  bottom: 12rem;
+  margin-left: 3rem;
+}
+
+.bellefair {
+  font-family: 'Bellefair', serif;
+}
+
+.condensed {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 2rem !important;
+  letter-spacing: .3rem;
+}
+
+.barlow {
+  font-weight: 100;
+  font-size: 1.3rem;
+}
+
+.circle {
+  display: flex;
+  position: absolute;
+  bottom: 12rem;
+  right: 18rem;
+  color: black !important;
+  background-color: white;
+  border-radius: 50%;
+  width: 14rem;
+  height: 14rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Bellefair', serif;
+  font-size: 1.7rem;
+  letter-spacing: .2rem;
+}
+
+/* Destination */
+.fondo-destination {
+  background-image: url('../assets/destination/background-destination-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3rem;
+}
+
+ul#list-destinations li {
+  display: inline;
+}
+
+#list-destinations {
+  padding: 0 !important;
+  margin-bottom: 2rem;
+}
+
+.destination-item {
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 0rem 1rem;
+  font-size: 1rem;
+}
+
+.moon {
+  padding-left: 0rem;
+}
+
+.destination-title {
+  margin: 2rem 0rem 3rem 7rem;
+  letter-spacing: .2rem !important;
+}
+
+.img-moon {
+  width: 70%;
+  align-items: center;
+}
+
+.contenedor-moon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-descripcion {
+  padding-left: 6rem;
+}
+
+.content {
+  width: 73%;
+}
+
+.destination-description {
+  margin-bottom: 2rem;
+}
+
+.barlow-condensed {
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.avg-distance {
+  float: left;
+  margin-right: 20%;
+}
+
+.travel-time {
+  float: left;
+}
+
+#kms #dias {
+  font-size: 1rem;
 }
