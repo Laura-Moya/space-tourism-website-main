@@ -21,7 +21,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <!-- Styles sheet -->
   <link rel="stylesheet" href="css/styles.css">
-  <script src="js/script.js"></script>
+  <script src="js/script.js" onload="redirectPage(this); return false;"></script>
 
   <title>Space tourism website</title>
 </head>
@@ -57,7 +57,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm contenedor-moon">
-        <img src="" class="img-moon" id="imagenPlaneta"/>
+        <img src="assets/destination/image-moon.webp" class="img-moon" id="imagenPlaneta"/>
       </div>
       <div class="col-sm contenedor-descripcion">
         <ul id="list-destinations">
@@ -66,20 +66,23 @@
           <li class="destination-item"><a href="#" onclick="redirectPage(this); return false;">EUROPA</a></li>
           <li class="destination-item"><a href="#" onclick="redirectPage(this); return false;">TITAN</a></li>
         </ul>
-        <h1 class="bellefair" style="font-size:5rem;" id="tituloPlaneta"></h1>
+        <h1 class="bellefair" style="font-size:5rem;" id="tituloPlaneta">MOON</h1>
         <div class="content">
           <p class="destination-description" id="descripcionPlaneta">
-
+            See our planet as you’ve never seen it before. A perfect
+            relaxing trip away to help regain perspective and come
+            back refreshed. While you’re there, take in some history
+            by visiting the Luna 2 and Apollo 11 landing sites.
           </p>
           <hr class="destination-line"/>
           <div class="container">
             <div class="col-sm avg-distance">
               <p class="barlow-condensed">AVG. DISTANCE</p>
-              <p class="bellefair" id="distance"></p>
+              <p class="bellefair" id="distance">384,400 km</p>
             </div>
             <div class="col-sm travel-time">
               <p class="barlow-condensed">EST. TRAVEL TIME</p>
-              <p class="bellefair" id="travelTime"></p>
+              <p class="bellefair" id="travelTime">3 days</p>
             </div>
           </div>
 
